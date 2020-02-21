@@ -32,7 +32,7 @@ public class OrderApiController {
             orderItems
                     .forEach( o -> o.getItem().getName());
 
-            // order, orderItems 강제 초기화
+            // order, orderItems 강제 초기화....
             // hibernate5module 의 기본 전략이 lazy 이기 때문
         }
 
