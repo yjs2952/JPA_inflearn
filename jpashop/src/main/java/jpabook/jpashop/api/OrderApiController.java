@@ -29,7 +29,7 @@ public class OrderApiController {
 
             List<OrderItem> orderItems = order.getOrderItems();
 
-            orderItems.stream()
+            orderItems
                     .forEach( o -> o.getItem().getName());
 
             // order, orderItems 강제 초기화
